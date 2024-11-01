@@ -32,9 +32,11 @@ public class ObtenerTasaParMonedas {
             System.out.println("========================================================");
             System.out.println("                    Conversión Final");
             System.out.println("                    ++++++++++++++++\n");
-            System.out.println("Cambiar de: " + "[" + tasaCambio.getBaseCode() + "]" + " a: " + "[" + tasaCambio.getTargetCode() + "]");
+            System.out.println("Cambiar de: " + "[" + tasaCambio.getBaseCode() + "]" +
+                    " a: " + "[" + tasaCambio.getTargetCode() + "]");
             System.out.println("Tasa de conversión: " + tasaCambio.getConversionRate());
-            System.out.println(cantidad + " [" + monedaBase + "]" + " equivalen a: " + tasaCambio.getConversionResult() + " [" + monedaDestino + "]");
+            System.out.println(cantidad + " [" + monedaBase + "]" + " equivalen a: " +
+                    tasaCambio.getConversionResult() + " [" + monedaDestino + "]");
             System.out.println("\n=======================================================");
 
 
