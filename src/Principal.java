@@ -26,7 +26,7 @@ public class Principal {
 
             seleccion = (scanner.nextLine());
 
-            if(Integer.parseInt(seleccion) <= 6 && Integer.parseInt(seleccion) >= 1 ){
+            if(!seleccion.isEmpty() && Integer.parseInt(seleccion) >= 1 && Integer.parseInt(seleccion) <= 6){
                 System.out.println("Ingrese Monto a convertir: ");
                 monto = (scanner.nextLine());
             }
